@@ -1,0 +1,31 @@
+// useEffect(() => {
+//     const storeCart = getShoppingCart();
+//     const saveCart = []
+
+//     for (const id in storeCart) {
+//         const addValue = products.find(product => product.id === id);
+//         if (addValue) {
+//             const quantity = storeCart[id];
+//             addValue.quantity = quantity;
+//             saveCart.push(addValue);
+//         }
+//     }
+//     setCart(saveCart);
+// }, [products])
+
+
+
+// const handlerAddToCart = (selected) => {
+// let newCart = [];
+// const exists = cart.find(product => product.id === selected.id)
+// if (!exists) {
+//     selected.quantity = 1;
+//     newCart = [...cart, selected];
+// }
+// else {
+//     const rest = cart.filter(product => product.id !== selected.id)
+//     exists.quantity = exists.quantity + 1;
+//     newCart = [...rest, exists];
+// }
+
+// setCart(newCart)

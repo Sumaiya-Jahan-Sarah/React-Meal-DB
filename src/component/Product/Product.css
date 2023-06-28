@@ -1,0 +1,34 @@
+.product img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product {
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.instruction {
+    margin-bottom: 50px;
+}
+
+.btn-order {
+    border: none;
+    background-color: bisque;
+    margin-right: 5px;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border: 1px solid burlywood;
+    bottom: 0;
+
+
+}
+
+.btn-order svg {
+    margin-left: 5px;
+}
